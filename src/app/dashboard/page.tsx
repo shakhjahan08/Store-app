@@ -23,9 +23,14 @@ export default function DashboardPage() {
             <h1 className="text-4xl font-bold">Welcome, {name}</h1>
           </div>
 
-          <button className="rounded-full bg-blue-600 px-4 py-2 font-semibold hover:bg-blue-500">
-            + Add product
-          </button>
+          <div className="flex gap-3">
+            <a href="/seller" className="rounded-full border border-slate-700 px-4 py-2 hover:bg-slate-800">
+              Product manager
+            </a>
+            <a href="/orders" className="rounded-full bg-blue-600 px-4 py-2 font-semibold hover:bg-blue-500">
+              Orders
+            </a>
+          </div>
         </div>
 
         <div className="grid gap-4 md:grid-cols-4">

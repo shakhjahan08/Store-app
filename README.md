@@ -1,14 +1,14 @@
 # StoreApp
 
-A Next.js marketplace MVP with separate client and seller experiences.
+A modern marketplace MVP built with Next.js and Tailwind CSS.
 
-## Features
+## Included
 
-- Client storefront with search and category filters
-- Persistent browser cart
-- Demo client/seller login selection
-- Seller dashboard with sales summary and listings
-- Responsive Tailwind CSS interface
+- Client storefront
+- Search and category filtering
+- Cart and checkout flow
+- Seller dashboard with summary cards and listings
+- Demo login selection for client and seller
 
 ## Run locally
 
@@ -19,4 +19,6 @@ npm run dev
 
 Open http://localhost:3000.
 
-This first version uses demo data and localStorage. Authentication, payments, database persistence, and seller product editing can be added next.
+## Notes
+
+This is a demo app using localStorage. It is ready for expansion with real authentication, database storage, Stripe integration, and seller product management.
